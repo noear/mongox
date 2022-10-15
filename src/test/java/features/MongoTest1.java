@@ -3,8 +3,8 @@ package features;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.noear.wood.WoodConfig;
-import org.noear.wood.mongo.MgContext;
-import wood_mongo.features.model.UserModel;
+import org.noear.mongox.MgContext;
+import features.model.UserModel;
 
 /**
  * @author noear 2021/2/6 created

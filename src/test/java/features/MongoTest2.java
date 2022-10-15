@@ -5,8 +5,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.noear.solon.Utils;
 import org.noear.wood.WoodConfig;
-import org.noear.wood.mongo.MgContext;
-import wood_mongo.features.model.UserModel;
+import org.noear.mongox.MgContext;
+import features.model.UserModel;
 
 import java.util.List;
 import java.util.Map;

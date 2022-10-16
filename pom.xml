@@ -6,7 +6,7 @@
 
     <groupId>org.noear</groupId>
     <artifactId>mongox</artifactId>
-    <version>1.0.0-M1</version>
+    <version>1.0.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,13 +18,13 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>wood</artifactId>
-            <version>1.0.0-M1</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongo-java-driver</artifactId>
-            <version>3.12.6</version>
+            <version>3.12.9</version>
         </dependency>
 
 
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-test</artifactId>
-            <version>1.10.6</version>
+            <version>1.10.7</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

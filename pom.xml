@@ -27,12 +27,11 @@
             <version>3.12.9</version>
         </dependency>
 
-
         <!-- test -->
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-test</artifactId>
-            <version>1.10.7</version>
+            <version>1.11.5</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

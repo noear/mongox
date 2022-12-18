@@ -1,25 +1,5 @@
-# Wood JAVA for mongodb 接口字典
+# MongoX 接口字典
 
-#### 入门示例
-```java
-MgContext db = new MgContext(properties, "demo");
-MgContext db = new MgContext("127.0.0.1", 27017, "demo");
-
-//插入
-db.table("user")
-   .set("id", i)
-   .set("type", 1)
-   .set("name", "noear")
-   .set("nickname", "xidao")
-   .insert();
-
-//查询
-List<UserModel> list = db.table("user")
-        .whereEq("type",1)
-        .orderByAsc("id")
-        .limit(10,10)
-        .selectList(UserModel.class);
-```
 
 #### db.table("table") -> new:MgTableQuery
 ```swift

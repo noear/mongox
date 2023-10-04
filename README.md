@@ -47,6 +47,9 @@ db.table("user")
    .set("nickname", "xidao")
    .insert();
 
+//插件实体
+db.table("user").setEntity(user).insert();
+
 //查询
 List<UserModel> list = db.table("user")
         .whereEq("type",1)

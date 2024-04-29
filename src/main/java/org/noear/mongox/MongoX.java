@@ -7,10 +7,7 @@ import org.noear.wood.DataItem;
 import org.noear.wood.utils.StringUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * 此包装，更适合在PaaS里使用
@@ -259,7 +256,7 @@ public class MongoX implements AutoCloseable {
     }
 
     public String createIndex(String coll, Map<String, Object> keys) {
-        return createIndex(coll, keys);
+        return createIndex(coll, keys, Collections.emptyMap());
     }
 
     @Override

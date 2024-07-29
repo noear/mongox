@@ -1,8 +1,8 @@
 package features;
 
 import org.bson.Document;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.noear.solon.Utils;
 import org.noear.wood.WoodConfig;
 import org.noear.mongox.MgContext;
@@ -18,7 +18,7 @@ public class MongoTest2 {
     String url = "mongodb://admin:admin@localhost";
     MgContext db = new MgContext(url, "demo");
 
-    @BeforeClass
+    @BeforeAll
     public static void bef(){
         WoodConfig.isUsingUnderlineColumnName = false;
     }
